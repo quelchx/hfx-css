@@ -1,5 +1,13 @@
 # FX CSS
 
-FX CSS is a simple and lightweight animation library. 
+🎇 FX CSS is a simple and lightweight animation library.
 
-Currently under construction!
+🚧 Currently under construction!
+
+🗺️ Road Map:
+
+- 🌱 Adding more effects
+
+- 📦 Create NPM package
+- 📜 Create CDN link
+- ⬇️ Create downloadable package
