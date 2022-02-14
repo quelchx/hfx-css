@@ -1,0 +1,34 @@
+@import './mixins.scss';
+
+@include keyframes(bounce) {
+  30% {
+    @include fx(translateY(1px));
+  }
+  60% {
+    @include fx(translateY(0px));
+  }
+  90% {
+    @include fx(translateY(1px));
+  }
+}
+
+@include keyframes(shake) {
+  30% {
+    @include fx(translateX(1px));
+  }
+  60% {
+    @include fx(translateX(0px));
+  }
+  90% {
+    @include fx(translateX(1px));
+  }
+}
+
+@include keyframes(pulsate) {
+  25% {
+    @include fx(scale(1.05) translateZ(0));
+  }
+  75% {
+    @include fx(scale(0.95) translateZ(0));
+  }
+}

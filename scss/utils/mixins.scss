@@ -1,0 +1,37 @@
+// fx = effects
+@mixin fx($target) {
+  transform: $target;
+  -webkit-transform: $target;
+}
+
+// afx = animate effect
+@mixin afx($name, $dur, $count) {
+  animation-name: $name;
+  animation-duration: $dur;
+  animation-iteration-count: $count;
+}
+
+// modified from https://gist.github.com/mirisuzanne/1607696
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin display() {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@mixin shadow() {
+  box-shadow: $shade;
+}

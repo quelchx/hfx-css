@@ -1,0 +1,52 @@
+/*!
+ * FX CSS (http://github.com/quelchx)
+ * Version: 0.0.1
+ * Author: Eric Quelch @quelchx
+ * Author URL: http://quelchx.com/
+ * Github: https://github.com/quelchx/fx-css
+*/
+
+@import './utils/constants.scss';
+@import './utils/mixins.scss';
+@import './utils/keyframes.scss';
+
+.fx {
+  &-bounce {
+    @include display();
+    &:hover {
+      @include afx(bounce, $hs, $count);
+    }
+  }
+
+  &-shake {
+    @include display();
+
+    &:hover {
+      @include afx(shake, $hs, $count);
+    }
+  }
+
+  &-grow {
+    @include display();
+    &:hover {
+      @include shadow();
+      @include fx(scale(1.06) translateZ(0));
+    }
+  }
+
+  &-shrink {
+    @include display();
+    &:hover {
+      @include shadow();
+      @include fx(scale(0.9) translateZ(0));
+    }
+  }
+
+  &-pulsate {
+    @include display();
+    &:hover {
+      @include shadow();
+      @include afx(pulsate, $hs, $inf);
+    }
+  }
+}

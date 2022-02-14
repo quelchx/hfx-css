@@ -1,0 +1,30 @@
+{
+  "name": "fx-css",
+  "version": "0.0.1",
+  "description": "Simple + Basic CSS Hover Effects",
+  "scripts": {
+    "build:css": "node-sass --include-path scss scss/main.scss dist/css/main.css",
+    "watch:css": "nodemon -e scss -x \"npm run build:css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quelchx/fx-css.git"
+  },
+  "keywords": [
+    "css",
+    "animation"
+  ],
+  "author": {
+    "name": "Eric Quelch",
+    "email": "quelchx@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quelchx/fx-css/issues"
+  },
+  "homepage": "https://github.com/quelchx/fx-css#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
