@@ -30,7 +30,7 @@
     @include display();
     &:hover {
       @include shadow();
-      @include afx(pulse-shake, $hs, $count);
+      @include afx(pulse-shake, $hs, $count / 2);
     }
   }
 
@@ -54,7 +54,7 @@
     @include display();
     &:hover {
       @include shadow();
-      @include afx(squeeze, $hs, $count);
+      @include afx(squeeze, $hs, $count / 2);
     }
   }
 
@@ -62,7 +62,7 @@
     @include display();
     &:hover {
       @include shadow();
-      @include afx(squish, $hs, $count);
+      @include afx(squish, $hs, $count / 2);
     }
   }
 
@@ -70,7 +70,7 @@
     @include display();
     &:hover {
       @include shadow();
-      @include afx(pulse, $hs, $inf);
+      @include afx(pulse, $hs, 1);
     }
   }
 }
