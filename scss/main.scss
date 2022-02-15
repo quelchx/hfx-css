@@ -26,6 +26,14 @@
     }
   }
 
+  &-pulse-shake {
+    @include display();
+    &:hover {
+      @include shadow();
+      @include afx(pulse-shake, $hs, $count);
+    }
+  }
+
   &-grow {
     @include display();
     &:hover {
@@ -42,11 +50,27 @@
     }
   }
 
-  &-pulsate {
+  &-squeeze {
     @include display();
     &:hover {
       @include shadow();
-      @include afx(pulsate, $hs, $inf);
+      @include afx(squeeze, $hs, $count);
+    }
+  }
+
+  &-squish {
+    @include display();
+    &:hover {
+      @include shadow();
+      @include afx(squish, $hs, $count);
+    }
+  }
+
+  &-pulse {
+    @include display();
+    &:hover {
+      @include shadow();
+      @include afx(pulse, $hs, $inf);
     }
   }
 }

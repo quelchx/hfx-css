@@ -93,7 +93,7 @@
     transform: translateX(1px);
     -webkit-transform: translateX(1px); } }
 
-@-webkit-keyframes pulsate {
+@-webkit-keyframes pulse {
   25% {
     transform: scale(1.05) translateZ(0);
     -webkit-transform: scale(1.05) translateZ(0); }
@@ -101,7 +101,7 @@
     transform: scale(0.95) translateZ(0);
     -webkit-transform: scale(0.95) translateZ(0); } }
 
-@-moz-keyframes pulsate {
+@-moz-keyframes pulse {
   25% {
     transform: scale(1.05) translateZ(0);
     -webkit-transform: scale(1.05) translateZ(0); }
@@ -109,7 +109,7 @@
     transform: scale(0.95) translateZ(0);
     -webkit-transform: scale(0.95) translateZ(0); } }
 
-@-ms-keyframes pulsate {
+@-ms-keyframes pulse {
   25% {
     transform: scale(1.05) translateZ(0);
     -webkit-transform: scale(1.05) translateZ(0); }
@@ -117,13 +117,145 @@
     transform: scale(0.95) translateZ(0);
     -webkit-transform: scale(0.95) translateZ(0); } }
 
-@keyframes pulsate {
+@keyframes pulse {
   25% {
     transform: scale(1.05) translateZ(0);
     -webkit-transform: scale(1.05) translateZ(0); }
   75% {
     transform: scale(0.95) translateZ(0);
     -webkit-transform: scale(0.95) translateZ(0); } }
+
+@-webkit-keyframes pulse-shake {
+  25% {
+    transform: scale(1.05) translateX(-2px) translateZ(0);
+    -webkit-transform: scale(1.05) translateX(-2px) translateZ(0); }
+  50% {
+    transform: scale(1) translateX(0) translateZ(0);
+    -webkit-transform: scale(1) translateX(0) translateZ(0); }
+  75% {
+    transform: scale(0.95) translateX(2px) translateZ(0);
+    -webkit-transform: scale(0.95) translateX(2px) translateZ(0); } }
+
+@-moz-keyframes pulse-shake {
+  25% {
+    transform: scale(1.05) translateX(-2px) translateZ(0);
+    -webkit-transform: scale(1.05) translateX(-2px) translateZ(0); }
+  50% {
+    transform: scale(1) translateX(0) translateZ(0);
+    -webkit-transform: scale(1) translateX(0) translateZ(0); }
+  75% {
+    transform: scale(0.95) translateX(2px) translateZ(0);
+    -webkit-transform: scale(0.95) translateX(2px) translateZ(0); } }
+
+@-ms-keyframes pulse-shake {
+  25% {
+    transform: scale(1.05) translateX(-2px) translateZ(0);
+    -webkit-transform: scale(1.05) translateX(-2px) translateZ(0); }
+  50% {
+    transform: scale(1) translateX(0) translateZ(0);
+    -webkit-transform: scale(1) translateX(0) translateZ(0); }
+  75% {
+    transform: scale(0.95) translateX(2px) translateZ(0);
+    -webkit-transform: scale(0.95) translateX(2px) translateZ(0); } }
+
+@keyframes pulse-shake {
+  25% {
+    transform: scale(1.05) translateX(-2px) translateZ(0);
+    -webkit-transform: scale(1.05) translateX(-2px) translateZ(0); }
+  50% {
+    transform: scale(1) translateX(0) translateZ(0);
+    -webkit-transform: scale(1) translateX(0) translateZ(0); }
+  75% {
+    transform: scale(0.95) translateX(2px) translateZ(0);
+    -webkit-transform: scale(0.95) translateX(2px) translateZ(0); } }
+
+@-webkit-keyframes squeeze {
+  25% {
+    transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg); }
+  50% {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg); }
+  75% {
+    transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg); } }
+
+@-moz-keyframes squeeze {
+  25% {
+    transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg); }
+  50% {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg); }
+  75% {
+    transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg); } }
+
+@-ms-keyframes squeeze {
+  25% {
+    transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg); }
+  50% {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg); }
+  75% {
+    transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg); } }
+
+@keyframes squeeze {
+  25% {
+    transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg); }
+  50% {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg); }
+  75% {
+    transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg); } }
+
+@-webkit-keyframes squish {
+  25% {
+    transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg); }
+  50% {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg); }
+  75% {
+    transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg); } }
+
+@-moz-keyframes squish {
+  25% {
+    transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg); }
+  50% {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg); }
+  75% {
+    transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg); } }
+
+@-ms-keyframes squish {
+  25% {
+    transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg); }
+  50% {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg); }
+  75% {
+    transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg); } }
+
+@keyframes squish {
+  25% {
+    transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg); }
+  50% {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg); }
+  75% {
+    transform: rotateX(30deg);
+    -webkit-transform: rotateX(30deg); } }
 
 .fx-bounce {
   display: inline-block;
@@ -138,6 +270,15 @@
   vertical-align: middle; }
   .fx-shake:hover {
     animation-name: shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2; }
+
+.fx-pulse-shake {
+  display: inline-block;
+  vertical-align: middle; }
+  .fx-pulse-shake:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    animation-name: pulse-shake;
     animation-duration: 0.5s;
     animation-iteration-count: 2; }
 
@@ -157,11 +298,29 @@
     transform: scale(0.9) translateZ(0);
     -webkit-transform: scale(0.9) translateZ(0); }
 
-.fx-pulsate {
+.fx-squeeze {
   display: inline-block;
   vertical-align: middle; }
-  .fx-pulsate:hover {
+  .fx-squeeze:hover {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    animation-name: pulsate;
+    animation-name: squeeze;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2; }
+
+.fx-squish {
+  display: inline-block;
+  vertical-align: middle; }
+  .fx-squish:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    animation-name: squish;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2; }
+
+.fx-pulse {
+  display: inline-block;
+  vertical-align: middle; }
+  .fx-pulse:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    animation-name: pulse;
     animation-duration: 0.5s;
     animation-iteration-count: infinite; }

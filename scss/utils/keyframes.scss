@@ -24,11 +24,47 @@
   }
 }
 
-@include keyframes(pulsate) {
+@include keyframes(pulse) {
   25% {
     @include fx(scale(1.05) translateZ(0));
   }
   75% {
     @include fx(scale(0.95) translateZ(0));
+  }
+}
+
+@include keyframes(pulse-shake) {
+  25% {
+    @include fx(scale(1.05) translateX(-2px) translateZ(0));
+  }
+  50% {
+    @include fx(scale(1) translateX(0) translateZ(0));
+  }
+  75% {
+    @include fx(scale(0.95) translateX(2px) translateZ(0));
+  }
+}
+
+@include keyframes(squeeze) {
+  25% {
+    @include fx(rotateY(30deg));
+  }
+  50% {
+    @include fx(rotateY(0deg));
+  }
+  75% {
+    @include fx(rotateY(30deg));
+  }
+}
+
+@include keyframes(squish) {
+  25% {
+    @include fx(rotateX(30deg));
+  }
+  50% {
+    @include fx(rotateX(0deg));
+  }
+  75% {
+    @include fx(rotateX(30deg));
   }
 }
