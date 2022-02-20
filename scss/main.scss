@@ -12,22 +12,18 @@
 
 .fx {
   &-bounce {
-    @include display();
     &:hover {
       @include afx(bounce, $hs, $count);
     }
   }
 
   &-shake {
-    @include display();
-
     &:hover {
       @include afx(shake, $hs, $count);
     }
   }
 
   &-pulse-shake {
-    @include display();
     &:hover {
       @include shadow();
       @include afx(pulse-shake, $hs, $count / 2);
@@ -35,7 +31,6 @@
   }
 
   &-grow {
-    @include display();
     &:hover {
       @include shadow();
       @include fx(scale(1.06) translateZ(0));
@@ -43,7 +38,6 @@
   }
 
   &-shrink {
-    @include display();
     &:hover {
       @include shadow();
       @include fx(scale(0.9) translateZ(0));
@@ -51,7 +45,6 @@
   }
 
   &-squeeze {
-    @include display();
     &:hover {
       @include shadow();
       @include afx(squeeze, $hs, $count / 2);
@@ -59,15 +52,41 @@
   }
 
   &-squish {
-    @include display();
     &:hover {
       @include shadow();
       @include afx(squish, $hs, $count / 2);
     }
   }
 
+  &-float {
+    &:hover {
+      @include shadow();
+      @include afx(floats, 2s, $inf);
+    }
+  }
+
+  &-sink {
+    &:hover {
+      @include shadow();
+      @include afx(sink, 2s, $inf);
+    }
+  }
+
+  &-skewed-fw {
+    &:hover {
+      @include fx(skew(-10deg));
+      transform-origin: 0 100%;
+    }
+  }
+
+  &-skewed-bw {
+    &:hover {
+      @include fx(skew(10deg));
+      transform-origin: 0 100%;
+    }
+  }
+
   &-pulse {
-    @include display();
     &:hover {
       @include shadow();
       @include afx(pulse, $hs, 1);

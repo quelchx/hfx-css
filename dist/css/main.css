@@ -213,6 +213,94 @@
     transform: rotateY(30deg);
     -webkit-transform: rotateY(30deg); } }
 
+@-webkit-keyframes floats {
+  25% {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px); }
+  50% {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px); }
+  75% {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px); } }
+
+@-moz-keyframes floats {
+  25% {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px); }
+  50% {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px); }
+  75% {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px); } }
+
+@-ms-keyframes floats {
+  25% {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px); }
+  50% {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px); }
+  75% {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px); } }
+
+@keyframes floats {
+  25% {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px); }
+  50% {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px); }
+  75% {
+    transform: translateY(-4px);
+    -webkit-transform: translateY(-4px); } }
+
+@-webkit-keyframes sink {
+  25% {
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px); }
+  50% {
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px); }
+  75% {
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px); } }
+
+@-moz-keyframes sink {
+  25% {
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px); }
+  50% {
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px); }
+  75% {
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px); } }
+
+@-ms-keyframes sink {
+  25% {
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px); }
+  50% {
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px); }
+  75% {
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px); } }
+
+@keyframes sink {
+  25% {
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px); }
+  50% {
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px); }
+  75% {
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px); } }
+
 @-webkit-keyframes squish {
   25% {
     transform: rotateX(30deg);
@@ -257,70 +345,68 @@
     transform: rotateX(30deg);
     -webkit-transform: rotateX(30deg); } }
 
-.fx-bounce {
-  display: inline-block;
-  vertical-align: middle; }
-  .fx-bounce:hover {
-    animation-name: bounce;
-    animation-duration: 0.5s;
-    animation-iteration-count: 2; }
+.fx-bounce:hover {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2; }
 
-.fx-shake {
-  display: inline-block;
-  vertical-align: middle; }
-  .fx-shake:hover {
-    animation-name: shake;
-    animation-duration: 0.5s;
-    animation-iteration-count: 2; }
+.fx-shake:hover {
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2; }
 
-.fx-pulse-shake {
-  display: inline-block;
-  vertical-align: middle; }
-  .fx-pulse-shake:hover {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    animation-name: pulse-shake;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1; }
+.fx-pulse-shake:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  animation-name: pulse-shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1; }
 
-.fx-grow {
-  display: inline-block;
-  vertical-align: middle; }
-  .fx-grow:hover {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    transform: scale(1.06) translateZ(0);
-    -webkit-transform: scale(1.06) translateZ(0); }
+.fx-grow:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transform: scale(1.06) translateZ(0);
+  -webkit-transform: scale(1.06) translateZ(0); }
 
-.fx-shrink {
-  display: inline-block;
-  vertical-align: middle; }
-  .fx-shrink:hover {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    transform: scale(0.9) translateZ(0);
-    -webkit-transform: scale(0.9) translateZ(0); }
+.fx-shrink:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transform: scale(0.9) translateZ(0);
+  -webkit-transform: scale(0.9) translateZ(0); }
 
-.fx-squeeze {
-  display: inline-block;
-  vertical-align: middle; }
-  .fx-squeeze:hover {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    animation-name: squeeze;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1; }
+.fx-squeeze:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  animation-name: squeeze;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1; }
 
-.fx-squish {
-  display: inline-block;
-  vertical-align: middle; }
-  .fx-squish:hover {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    animation-name: squish;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1; }
+.fx-squish:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  animation-name: squish;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1; }
 
-.fx-pulse {
-  display: inline-block;
-  vertical-align: middle; }
-  .fx-pulse:hover {
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    animation-name: pulse;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1; }
+.fx-float:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  animation-name: floats;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+.fx-sink:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  animation-name: sink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+.fx-skewed-fw:hover {
+  transform: skew(-10deg);
+  -webkit-transform: skew(-10deg);
+  transform-origin: 0 100%; }
+
+.fx-skewed-bw:hover {
+  transform: skew(10deg);
+  -webkit-transform: skew(10deg);
+  transform-origin: 0 100%; }
+
+.fx-pulse:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  animation-name: pulse;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1; }

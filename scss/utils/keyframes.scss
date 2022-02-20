@@ -57,6 +57,30 @@
   }
 }
 
+@include keyframes(floats) {
+  25% {
+    @include fx(translateY(-4px));
+  }
+  50% {
+    @include fx(translateY(-3px));
+  }
+  75% {
+    @include fx(translateY(-4px));
+  }
+}
+
+@include keyframes(sink) {
+  25% {
+    @include fx(translateY(4px));
+  }
+  50% {
+    @include fx(translateY(3px));
+  }
+  75% {
+    @include fx(translateY(4px));
+  }
+}
+
 @include keyframes(squish) {
   25% {
     @include fx(rotateX(30deg));
