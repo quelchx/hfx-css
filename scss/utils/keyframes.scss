@@ -69,6 +69,18 @@
   }
 }
 
+@include keyframes(wobble-top) {
+  25% {
+    @include fx(skew(15deg));
+  }
+  50% {
+    @include fx(skew(-10deg));
+  }
+  75% {
+    @include fx(skew(15deg));
+  }
+}
+
 @include keyframes(sink) {
   25% {
     @include fx(translateY(4px));
@@ -78,6 +90,18 @@
   }
   75% {
     @include fx(translateY(4px));
+  }
+}
+
+@include keyframes(be-bop) {
+  25% {
+    transform: translate(6px, 2px);
+  }
+  50% {
+    transform: translate(4px, -2px);
+  }
+  75% {
+    transform: translate(6px, 2px);
   }
 }
 

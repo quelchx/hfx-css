@@ -79,6 +79,20 @@
     }
   }
 
+  &-shimmy {
+    &:hover {
+      @include afx(wobble-top, 0.5s, $count / 2);
+      transform-origin: 0 100%;
+    }
+  }
+
+  &-be-bop {
+    &:hover {
+      @include afx(be-bop, 0.5s, $count / 2);
+    }
+  }
+
+
   &-skewed-bw {
     &:hover {
       @include fx(skew(10deg));

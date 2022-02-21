@@ -257,6 +257,50 @@
     transform: translateY(-4px);
     -webkit-transform: translateY(-4px); } }
 
+@-webkit-keyframes wobble-top {
+  25% {
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg); }
+  50% {
+    transform: skew(-10deg);
+    -webkit-transform: skew(-10deg); }
+  75% {
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg); } }
+
+@-moz-keyframes wobble-top {
+  25% {
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg); }
+  50% {
+    transform: skew(-10deg);
+    -webkit-transform: skew(-10deg); }
+  75% {
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg); } }
+
+@-ms-keyframes wobble-top {
+  25% {
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg); }
+  50% {
+    transform: skew(-10deg);
+    -webkit-transform: skew(-10deg); }
+  75% {
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg); } }
+
+@keyframes wobble-top {
+  25% {
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg); }
+  50% {
+    transform: skew(-10deg);
+    -webkit-transform: skew(-10deg); }
+  75% {
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg); } }
+
 @-webkit-keyframes sink {
   25% {
     transform: translateY(4px);
@@ -300,6 +344,38 @@
   75% {
     transform: translateY(4px);
     -webkit-transform: translateY(4px); } }
+
+@-webkit-keyframes be-bop {
+  25% {
+    transform: translate(6px, 2px); }
+  50% {
+    transform: translate(4px, -2px); }
+  75% {
+    transform: translate(6px, 2px); } }
+
+@-moz-keyframes be-bop {
+  25% {
+    transform: translate(6px, 2px); }
+  50% {
+    transform: translate(4px, -2px); }
+  75% {
+    transform: translate(6px, 2px); } }
+
+@-ms-keyframes be-bop {
+  25% {
+    transform: translate(6px, 2px); }
+  50% {
+    transform: translate(4px, -2px); }
+  75% {
+    transform: translate(6px, 2px); } }
+
+@keyframes be-bop {
+  25% {
+    transform: translate(6px, 2px); }
+  50% {
+    transform: translate(4px, -2px); }
+  75% {
+    transform: translate(6px, 2px); } }
 
 @-webkit-keyframes squish {
   25% {
@@ -399,6 +475,17 @@
   transform: skew(-10deg);
   -webkit-transform: skew(-10deg);
   transform-origin: 0 100%; }
+
+.fx-shimmy:hover {
+  animation-name: wobble-top;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  transform-origin: 0 100%; }
+
+.fx-be-bop:hover {
+  animation-name: be-bop;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1; }
 
 .fx-skewed-bw:hover {
   transform: skew(10deg);
