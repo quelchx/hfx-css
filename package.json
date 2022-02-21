@@ -1,9 +1,9 @@
 {
-  "name": "fx-css",
+  "name": "hfx-css",
   "version": "0.0.1",
   "description": "Simple + Basic CSS Hover Effects",
   "scripts": {
-    "build:css": "node-sass --include-path scss scss/main.scss dist/css/main.css",
+    "build:css": "node-sass --include-path scss scss/hfx.scss dist/css/hfx.css",
     "watch:css": "nodemon -e scss -x \"npm run build:css\""
   },
   "repository": {

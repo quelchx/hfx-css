@@ -1,6 +1,6 @@
-# FX CSS
+# HFX CSS
 
-🎇 FX CSS is a simple and lightweight animation library.
+🎇 HFX CSS is a simple and lightweight animation library.
 
 🚧 Currently under construction!
 

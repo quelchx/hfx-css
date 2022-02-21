@@ -10,7 +10,7 @@
 @import './utils/mixins.scss';
 @import './utils/keyframes.scss';
 
-.fx {
+.hfx {
   &-bounce {
     &:hover {
       @include afx(bounce, $hs, $count);
