@@ -4,7 +4,10 @@
   "description": "Simple + Basic CSS Hover Effects",
   "scripts": {
     "build:css": "node-sass --include-path scss scss/hfx.scss dist/css/hfx.css",
-    "watch:css": "nodemon -e scss -x \"npm run build:css\""
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "min:css": "node-sass --include-path scss scss/hfx.scss dist/css/hfx.min.css --output-style compressed",
+    "minify": "nodemon -e scss -x \"npm run min:css\"",
+    "dev": "concurrently \"npm run watch:css\" \"npm run minify\" --names build,minify"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
   },
   "homepage": "https://github.com/quelchx/fx-css#readme",
   "devDependencies": {
+    "concurrently": "^7.0.0",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   }
