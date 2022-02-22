@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FX CSS</title>
-    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link rel="stylesheet" href="./dist/css/hfx.min.css" />
   </head>
   <style>
     button,
@@ -65,11 +65,17 @@
       align-content: center;
       justify-content: center;
     }
+
+    code {
+      color: plum;
+      padding: 10px 4px;
+      background-color: #262727;
+    }
   </style>
   <body>
     <div class="container">
       <div class="hero">
-        <h2>HFX CSS</h2>
+        <h2 style="font-size: 40px;">HFX CSS</h2>
         <p>
           ✨ Lightweight, simple and straight forward CSS library for hover effects
         </p>
@@ -78,7 +84,7 @@
         >
       </div>
     </div>
-    <hr />
+    <div style="border: 1px solid #262727ad; margin-top: 50px;"></div>
     <p style="text-align: center; font-size: 20px">Current Collection</p>
     <div class="showcase">
       <button class="hfx-bounce">Bounce</button>
@@ -96,9 +102,13 @@
       <button class="hfx-skewed-fw">Skewed Forward</button>
       <button class="hfx-be-bop">Be-Bop</button>
     </div>
-    <div style="padding: 2px 20px;">
+    <div style="border: 1px solid #262727ad; margin-top: 50px;"></div>
+    <div style="padding: 2px 16px; line-height: 24px;">
       <h1>How to use</h1>
-      <p>🚧 Coming Soon!</p>
+      <p>The easiest way to use this package is to install the package using NPM or Yarn by running the command <span style="background-color: #262727; color: #4c9eea; padding: 2.5px;">npm i hfx-css</span> then importing the package into your <span style="color: rgb(163, 28, 51);">main.css</span> file</p>
+      <code>
+          @import './node_modules/hfx-css/dist/css/hfx.css'
+      </code>
     </div>
     <div style="display: flex; flex-direction: column; padding: 20px">
       <p>
@@ -114,6 +124,10 @@
         >
         This collection has about everything you could ask for if this package isn't what your seeking for!
       </p>
+    </div>
+    <div style="display: flex; flex-direction: column; padding: 2px 20px">
+      <p>More Coming Soon!</p>
+      <p>By Eric Quelch</p>
     </div>
   </body>
 </html>
