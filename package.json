@@ -1,6 +1,6 @@
 {
   "name": "hfx-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple + Basic CSS Hover Effects",
   "scripts": {
     "build:css": "node-sass --include-path scss scss/hfx.scss dist/css/hfx.css",
