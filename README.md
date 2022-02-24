@@ -15,7 +15,7 @@ To use this package run `npm i hfx-css` then inside your `main.css` file add:
 @import './node_modules/hfx-css/dist/css/hfx.css';
 ```
 
-Visit quelchx.github.io/hfx-css/ for examples on how to use this package within your current project.
+Visit <a href='https://quelchx.github.com.io/'>quelchx.github.io/hfx-css/</a> for examples on how to use this package within your current project.
 
 ### 🗺️ Current Road Map:
 

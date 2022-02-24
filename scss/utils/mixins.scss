@@ -11,6 +11,16 @@
   animation-iteration-count: $count;
 }
 
+@mixin duration($time) {
+  transition-duration: $time;
+  -webkit-transition-duration: $time;
+}
+
+@mixin transist($prop) {
+  transition-property: $prop;
+  -webkit-transition-property: $prop;
+}
+
 // modified from https://gist.github.com/mirisuzanne/1607696
 @mixin keyframes($name) {
   @-webkit-keyframes #{$name} {

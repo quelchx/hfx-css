@@ -93,15 +93,51 @@
   }
 }
 
-@include keyframes(be-bop) {
+@include keyframes(waterfall) {
   25% {
-    transform: translate(6px, 2px);
+    text-decoration: overline;
   }
   50% {
-    transform: translate(4px, -2px);
+    text-decoration: line-through;
   }
-  75% {
-    transform: translate(6px, 2px);
+  70% {
+    text-decoration: underline;
+  }
+  90% {
+    text-decoration: overline;
+  }
+}
+
+@include keyframes(nudge) {
+  20% {
+    @include fx(translate(1px, 0px));
+  }
+  40% {
+    @include fx(translate(5px, 0px));
+  }
+  60% {
+    @include fx(translate(3px, 0px));
+  }
+  80% {
+    @include fx(translate(4px, 0px));
+  }
+  100% {
+    @include fx(translate(1px, 0px));
+  }
+}
+
+@include keyframes(be-bop) {
+  25% {
+    @include fx(translate(6px, 2px));
+  }
+  60% {
+    @include fx(translate(4px, -2px));
+  }
+  80% {
+    @include fx(translate(6px, 2px));
+  }
+  95% {
+    @include fx(translate(6px, 2px));
   }
 }
 
