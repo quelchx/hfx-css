@@ -20,7 +20,7 @@ Or you can use a CDN link like so:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hfx-css@0.0.3/dist/css/hfx.min.css">
 ```
 
-Visit <a href='quelchx.github.com.io/'>quelchx.github.io/hfx-css/</a> for examples on how to use this package within your current project.
+Visit <a href='https://quelchx.github.io/hfx-css/'>quelchx.github.io/hfx-css/</a> for examples on how to use this package within your current project.
 
 ### 🗺️ Current Road Map:
 
