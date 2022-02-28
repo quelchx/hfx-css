@@ -5,7 +5,7 @@
 
 ### 🎇 HFX CSS is a simple and lightweight animation library. No JavaScript needed!
 
-### 🚧 Currently in Alpha Build!
+### 🚧 Currently in Beta Build!
 
 To visit this package please check out <a href='https://www.npmjs.com/package/hfx-css'>HFX CSS</a>
 
@@ -15,12 +15,16 @@ To use this package run `npm i hfx-css` then inside your `main.css` file add:
 @import './node_modules/hfx-css/dist/css/hfx.css';
 ```
 
+Or you can use a CDN link like so:
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hfx-css@0.0.3/dist/css/hfx.min.css">
+```
+
 Visit <a href='quelchx.github.com.io/'>quelchx.github.io/hfx-css/</a> for examples on how to use this package within your current project.
 
 ### 🗺️ Current Road Map:
 
 - 🌱 Adding more effects
-- 📜 Create CDN link
 
 ### Issues or Requests
 
