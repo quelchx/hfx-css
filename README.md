@@ -26,7 +26,7 @@ Visit <a href='https://quelchx.github.io/hfx-css/'>quelchx.github.io/hfx-css/</a
 
 - 🌱 Adding more effects
 
-### Issues or Requests
+### Issues or Requests?
 
 If you encounter any issues please submit an issue to https://github.com/quelchx/hfx-css/issues and please describe what is occuring.
 
